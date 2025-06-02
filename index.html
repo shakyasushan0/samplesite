@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dummy Web Scraping Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    /* Product Cards */
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .name {
+      font-size: 1.5em;
+      color: #444;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #27ae60;
+    }
+
+    .product:hover {
+      background: #fafafa;
+      transition: 0.3s ease;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #27ae60;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Featured Products</h1>
+
+  <div class="product">
+    <h2 class="name">Red Shoes</h2>
+    <p class="price">$49.99</p>
+  </div>
+
+  <div class="product">
+    <h2 class="name">Blue Jacket</h2>
+    <p class="price">$89.99</p>
+  </div>
+
+  <div class="product">
+    <h2 class="name">Green Hat</h2>
+    <p class="price">$19.99</p>
+  </div>
+
+  <h2>Product Inventory Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Product ID</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>In Stock</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>Red Shoes</td>
+        <td>Footwear</td>
+        <td>Yes</td>
+        <td>$49.99</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Blue Jacket</td>
+        <td>Outerwear</td>
+        <td>No</td>
+        <td>$89.99</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Green Hat</td>
+        <td>Accessories</td>
+        <td>Yes</td>
+        <td>$19.99</td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td>Yellow Socks</td>
+        <td>Footwear</td>
+        <td>Yes</td>
+        <td>$5.99</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    &copy; 2025 Dummy Web Scraping Site
+  </footer>
+</body>
+</html>
